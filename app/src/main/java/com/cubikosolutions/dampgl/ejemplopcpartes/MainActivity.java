@@ -76,28 +76,6 @@ public class MainActivity extends AppCompatActivity
                 startActivity(selrellenar);
             }
         });
-
-        Button btnCamara = (Button) findViewById(R.id.btnCamara);
-        btnCamara.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View view) {
-                sacarFoto();
-
-            }
-            });
-
-        Button btnGaleria = (Button) findViewById(R.id.btnGaleria);
-        btnGaleria.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                elegirDeGaleria();
-            }
-        });
-
-        imageViewImagen = (ImageView) findViewById(R.id.image_view_imagen);
-
-
     }
 
 
